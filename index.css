@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(238, 249, 250);
+    
+  }
+
+  #sign-in:hover {
+    text-decoration: underline;
+  }
+
+  #secure:hover {
+    text-decoration: underline;
+    color: darkred;
+  }
+
+  .camera :hover {
+    color: black;
+  }
+
+  .swap {
+    color: black;
+  }
+
+  .voice {
+    color: rgb(30, 29, 29);
+
+  }
+
+  .website {
+    color: rgb(30, 29, 29);
+
+  }
+
+  .nav-essential:hover {
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 16px;
+    color: black;
+    height: 40px;
+  }
+
+  .nav-additional:hover {
+    color: black;
+  }
+
+  .bottom {
+    position: fixed;
+    left: 92px;
+    bottom: 0px;
+    text-align: center;
+  }
+
+  #Login {
+    text-align: right;
+    align-items: right;
+    
+  }
+
+  #sign-in {
+    position: relative;
+    left: 650px;
+  }
+
+  #website {
+    color: #4aabf1;
+  }
+
+  #download {
+    color: black;
+    width: 180px;
+
+  }
+
+  #bluebook:hover {
+    color: #4aabf1;
+    height: 23;
+    width: 16;
+  }
+
+  .div::before {
+    content: "";
+    background-image: url(./images/SIH11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  
